@@ -1,0 +1,46 @@
+A handy mini-mod to pop up the error log when an error is printed, regardless of dev-mode settings, for better situational awareness, just as our predecessors have experienced.
+
+Package ID: V1024.VisibleErrorLogs
+
+[h1]Quick Info and Compatibility[/h1]
+[list]
+[*]Requires Harmony
+[*]Load this mod super-early! (Check the mod order auto-sort)
+[*]Know about critical bugs and errors without enabling dev-mode
+[*]Does not affect savegames; remove anytime!
+[*]Multiplayer compatibility: YES
+[*]RimThreaded compatibility: YES
+[*]GitHub repo link is here: https://github.com/Vectorial1024/VisibleErrorLogs
+[/list]
+
+[h1]Mod Features[/h1]
+For a long time in RimWorld's history, whenever an error message is printed (aka "red text", "exception", "Log.Error", etc etc), the debug log will appear regardless of dev-mode settings.
+This has been very helpful in modded playthroughs where incompatibilites and bugs can happen anytime. For those who have been around for long, this is sometimes dubbed as the "red wall of death".
+
+However, it seems recently, something has changed: if you did not enable dev-mode, then when an error message is printed, RimWorld will NOT show the error log.
+This means, it now takes longer for someone (users or modders themselves) to detect and report bugs. Bad!
+
+If your modlist setup is stable, then enabling this mod will usually have no observable effects. But if you are dealing with potentially unstable modlists, then you will need to know something went wrong asap.
+
+This mod works very well with e.g. Mod Error Checker https://steamcommunity.com/sharedfiles/filedetails/?id=2877266511 for dealing with mod errors on game startup. 
+
+[h1]Should I Use This Mod?[/h1]
+This is kind of a "debugging policy" mod.
+
+Users may want to individually install this mod to verify their modlist stability, and to easily detect serious bugs without enabling dev-mode.
+
+Modders may require this mod in their own published mods to enable aggressive bug detection from users; perhaps some mod features are easy to break, and modders may want to know about them asap.
+
+Bottom line: ask yourself whether you want to hunt down bugs and then decide.
+
+[h1]The GitHub Repo[/h1]
+Many things, including changelogs, non-Steam downloads, and issues, are on the GitHub repo of this mod. Link: https://github.com/Vectorial1024/VisibleErrorLogs
+
+[h1]Credits and Legal Stuff[/h1]
+[list]
+[*]RimWorld belongs to Ludeon Studio.
+[*]Harmony is provided by pardeike.
+[/list]
+
+[h1]Conclusion[/h1]
+Please report bugs and error messages below!
