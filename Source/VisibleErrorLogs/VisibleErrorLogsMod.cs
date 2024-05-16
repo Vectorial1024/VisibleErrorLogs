@@ -1,4 +1,5 @@
 ﻿using HarmonyLib;
+using UnityEngine;
 using Verse;
 
 namespace VisibleErrorLogs
@@ -29,6 +30,12 @@ namespace VisibleErrorLogs
         public static void LogInfo(string message)
         {
             Log.Message($"[{MODPREFIX}] {message}");
+        }
+
+        public override void DoSettingsWindowContents(Rect inRect)
+        {
+            // use this to create an assertion button in mod settings to test this mod
+            base.DoSettingsWindowContents(inRect);
         }
     }
 }
