@@ -25,7 +25,7 @@ If your modlist setup is stable, then enabling this mod will usually have no obs
 This mod works very well with e.g. Mod Error Checker https://steamcommunity.com/sharedfiles/filedetails/?id=2877266511 for dealing with mod errors on game startup. 
 
 [h1]Should I Use This Mod?[/h1]
-This is kind of a "debugging policy" mod.
+You should think about your "debugging policy".
 
 Users may want to individually install this mod to verify their modlist stability, and to easily detect serious bugs without enabling dev-mode.
 
