@@ -40,6 +40,7 @@ Many things, including changelogs, non-Steam downloads, and issues, are on the G
 [list]
 [*]RimWorld belongs to Ludeon Studio.
 [*]Harmony is provided by pardeike.
+[*]The preview background is a meme template.
 [/list]
 
 [h1]Conclusion[/h1]
