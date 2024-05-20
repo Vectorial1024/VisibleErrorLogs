@@ -1,4 +1,5 @@
 ﻿using HarmonyLib;
+using System;
 using UnityEngine;
 using Verse;
 
@@ -11,6 +12,10 @@ namespace VisibleErrorLogs
             // since we are dealing with very low-level stuff, we cannot use HugsLib
             // we therefore need to handle the Harmony init here.
             LogInfo("Visible Error Logs, starting up. Hopefully the patches work.");
+            // also print RimWorld (assembly) version
+            // supposedly the log will also print RimWorld version (more accurate), but sometimes I just miss it.
+            Version rimworldVersion = typeof(Mod).Assembly.GetName().Version;
+            LogInfo($"Detecting your RimWorld assembly version as {rimworldVersion}");
             Harmony harmony = new Harmony("rimworld." + content.PackageId);
             harmony.PatchAll();
         }
