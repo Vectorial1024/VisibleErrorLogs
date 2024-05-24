@@ -9,7 +9,9 @@
 		<li>1.5</li>
 	</supportedVersions>
 	<modVersion IgnoreIfNoMatchingField="True">1.0.1.0</modVersion>
-	<description>Show the error log when an error message is printed, bypassing dev-mode settings.</description>
+	<description>Show the error log when an error message is printed, bypassing dev-mode settings.
+
+Backporting is available for some older RimWorld versions.</description>
 	<url>https://github.com/Vectorial1024/VisibleErrorLogs</url>
 	<modDependencies> 
 		<li>
