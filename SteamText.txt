@@ -14,13 +14,9 @@ Package ID: V1024.VisibleErrorLogs
 [/list]
 
 [h1]Mod Features[/h1]
-For a long time in RimWorld's history, whenever an error message is printed (aka "red text", "exception", "Log.Error", etc etc), the debug log will appear regardless of dev-mode settings.
-This has been very helpful in modded playthroughs where incompatibilites and bugs can happen anytime. For those who have been around for long, this is sometimes dubbed as the "red wall of death".
+When dev-mode is enabled, whenever an error message is printed (aka "red text", "exception", "Log.Error", etc etc), the debug log will appear. This is very helpful to resolve bugs in a modded playthrough, but will require enabling the dev-mode, which some may not want to.
 
-However, it seems recently, something has changed: if you did not enable dev-mode, then when an error message is printed, RimWorld will NOT show the error log.
-This means, it now takes longer for someone (users or modders themselves) to detect and report bugs. Bad!
-
-If your modlist setup is stable, then enabling this mod will usually have no observable effects. But if you are dealing with potentially unstable modlists, then you will need to know something went wrong asap.
+Seeing the error message printed can be a helpful thing, especially when you encounter unexplainable bugs. Having a log is good evidence to be given to the modders to find out what exactly went wrong.
 
 This mod works very well with e.g. Mod Error Checker https://steamcommunity.com/sharedfiles/filedetails/?id=2877266511 for dealing with mod errors on game startup. 
 
@@ -29,7 +25,7 @@ You should think about your "debugging policy".
 
 Users may want to individually install this mod to verify their modlist stability, and to easily detect serious bugs without enabling dev-mode.
 
-Modders may require this mod in their own published mods to enable aggressive bug detection from users; perhaps some mod features are easy to break, and modders may want to know about them asap.
+Modders may recommend using this mod so problems are detected asap. Note that most of the time, this mod belongs to the "dev-require" category, but not the "require" category, so actually requiring this mod in About.xml may not be the best move.
 
 Bottom line: ask yourself whether you want to hunt down bugs and then decide.
 
@@ -41,6 +37,7 @@ Many things, including changelogs, non-Steam downloads, and issues, are on the G
 [*]RimWorld belongs to Ludeon Studio.
 [*]Harmony is provided by pardeike.
 [*]The preview background is a meme template.
+[*]Credits to the community for reminding me about the multiplicity of debugging methods
 [/list]
 
 [h1]Conclusion[/h1]
