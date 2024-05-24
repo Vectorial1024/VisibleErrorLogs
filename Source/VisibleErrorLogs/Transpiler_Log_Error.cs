@@ -6,7 +6,8 @@ using Verse;
 namespace VisibleErrorLogs
 {
     [HarmonyPatch(typeof(Log))]
-    [HarmonyPatch(nameof(Log.Error))]
+    // target the specific method to handle 1.3 and 1.4 old code having overloaded but deprecated methods
+    [HarmonyPatch(nameof(Log.Error), typeof(string))]
     internal class Transpiler_Log_Error
     {
         [HarmonyTranspiler]
