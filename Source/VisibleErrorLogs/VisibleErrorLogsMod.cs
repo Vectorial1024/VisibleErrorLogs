@@ -40,7 +40,26 @@ namespace VisibleErrorLogs
         public override void DoSettingsWindowContents(Rect inRect)
         {
             // use this to create an assertion button in mod settings to test this mod
+            Listing_Standard listing = new Listing_Standard(GameFont.Small);
+            listing.Begin(inRect);
+            listing.ColumnWidth = 400;
+
+            // button
+            if (listing.ButtonText("Trigger a harmless error, to see the debug log"))
+            {
+                LogError("BOOOOO!!!!! ;D Heh heh~~~ Did I scare you? Wanna try again? ;)");
+            }
+
+            // finish
+            listing.End();
+
+            // base call
             base.DoSettingsWindowContents(inRect);
+        }
+
+        public override string SettingsCategory()
+        {
+            return "Visible Error Logs";
         }
     }
 }
