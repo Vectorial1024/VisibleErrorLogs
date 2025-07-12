@@ -9,4 +9,10 @@
     <li>1.4</li>
   </v1.4>
   <!-- Current uses the Assemblies folder -->
+  <v1.5>
+    <li>/</li>
+  </v1.5>
+  <v1.6>
+    <li>/</li>
+  </v1.6>
 </loadFolders>
